@@ -22,7 +22,7 @@ Tampilan pada browser
 ![ScreenshotTugas](https://github.com/rangs24/Lab2Web/blob/master/ss4.png)
 
 ## **Menambahkan Inline CSS**
-### **Menambahkan deklarasi inline CSS pada tag <p>**
+### **Menambahkan deklarasi inline CSS pada tag p**
 
 Tampilan pada VSCode
 
@@ -35,7 +35,7 @@ Tampilan pada browser
 ## **Membuat CSS Eksternal**
 ### **Buat file baru dengan nama style_eksternal.css dan buatlah deklarasi CSS berikut**
 ![ScreenshotTugas](https://github.com/rangs24/Lab2Web/blob/master/ss7.png)
-### **Kemudian tambahkan tag <link> untuk merujuk file CSS yang sudah dibuat pada bagian <head>**
+### **Kemudian tambahkan tag link untuk merujuk file CSS yang sudah dibuat pada bagian <head>**
 ![ScreenshotTugas](https://github.com/rangs24/Lab2Web/blob/master/ss8.png)
 
 Tampilan pada browser
@@ -72,7 +72,7 @@ h1 {color: blue;}
 Lalu buatlah file HTML nya dan simpan dengan nama cssprioritas.html
 
 
-
+```CSS
 <!DOCTYPE HTML>
 <html>
 <head>
@@ -87,5 +87,5 @@ Lalu buatlah file HTML nya dan simpan dengan nama cssprioritas.html
 <h1>Teks ini berwarna apa ?</h1>
 </body>
 </html>
-
-Pada contoh di atas,tag <h1> berusaha untuk diubah warnanya dengan menggunakan CSS dari file prioritas.css yang ingin mengganti warna menjadi biru.Kedua dengan menggunakan kode CSS yang ada diantara tag <style> dan </style> dengan warna merah.Ketika ditampilkan di browser,maka warna merah yang akan ditampilkan
+```
+Pada contoh di atas,tag h1 berusaha untuk diubah warnanya dengan menggunakan CSS dari file prioritas.css yang ingin mengganti warna menjadi biru.Kedua dengan menggunakan kode CSS yang ada diantara tag style dan /style dengan warna merah.Ketika ditampilkan di browser,maka warna merah yang akan ditampilkan
